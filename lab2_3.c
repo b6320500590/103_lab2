@@ -10,7 +10,7 @@ int main()
     fflush(stdin);
     gets(eng);
 
-    if(a<b && a<c)
+    if(a<b && a<c && )
         x = a;
     else if(b<a && b<c)
         x = b;
