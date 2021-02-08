@@ -9,7 +9,7 @@ int main()
     fflush(stdin);
     scanf("%d", &day);
 
-    if(name >= 'A' && name <= 'I')
+    if(name >= 'A' && name <= 'I' && day > 0 && day < 32)
     {
         if(day%2 == 1)
         {
@@ -27,7 +27,7 @@ int main()
         }
     }
 
-    else if(name >= 'J' && name <= 'R')
+    else if(name >= 'J' && name <= 'R' && day > 0 && day < 32)
     {
         if(day%2 == 1)
         {
@@ -45,7 +45,7 @@ int main()
         }
     }
 
-    else if(name >= 'S' && name <= 'Z')
+    else if(name >= 'S' && name <= 'Z' && day > 0 && day < 32)
     {
         if(day%2 == 1)
         {
